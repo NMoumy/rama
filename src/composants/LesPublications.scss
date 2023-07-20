@@ -1,0 +1,28 @@
+.LesPublications {
+
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  
+  .bloc-public {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-secondaire {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    // margin-bottom: 1px;
+    border-bottom: 1px solid black;
+    
+    button {
+      padding: 10px 70px 10px 70px;
+      margin: 0 10px 0 10px;
+    }
+
+  }
+
+}

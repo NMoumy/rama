@@ -9,9 +9,11 @@ export default function LesPublications() {
         <button>populaire</button>
         <button>abonnement</button>
       </div>
-      <UnePublication/>
-      <UnePublication/>
-      <UnePublication/>
+      <div className="bloc-public">
+        <UnePublication/>
+        <UnePublication/>
+        <UnePublication/>
+      </div>
     </div>
   );
 }
