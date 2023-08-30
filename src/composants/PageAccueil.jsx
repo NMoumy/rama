@@ -8,5 +8,5 @@ export default function PageAccueil() {
         <Entete/>
         <LesPublications/>
     </div>
-  );123
+  );
 }
