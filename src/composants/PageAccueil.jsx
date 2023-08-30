@@ -7,7 +7,6 @@ export default function PageAccueil() {
     <div className="PageAccueil">
         <Entete/>
         <LesPublications/>
-        allo les filles
     </div>
-  );
+  );123
 }
