@@ -1,22 +1,24 @@
 import './PageProfil.scss';
+import LesPublicationsUtil from './LesPublicationsUtil';
+import Entete from './Entete';
 
 export default function PageProfil() {
   return (
     <div className="PageProfil">
-
+      <Entete/>
       <div className='info-profil'>
 
         <div className="nom-util">
-          <span className="photo-profil"></span>
+          <div className="photo-profil"></div>
           <h2>Le Nom </h2>
         </div>
 
         <div className='status'>
-          <div className='abonnement'>
-            <p>Abonnement</p>
+          <div className='abonnements'>
+            <p>Abonnements</p>
             <p>124678</p>
           </div>
-          <div className='abonnées'>
+          <div className='abonnees'>
             <p>Abonnées</p>
             <p>3214s</p>
           </div>
@@ -27,6 +29,8 @@ export default function PageProfil() {
         </div>
 
       </div>
+
+      <LesPublicationsUtil/>
 
     </div>
   );

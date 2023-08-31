@@ -1,0 +1,45 @@
+.PageProfil {
+    // display: flex;
+    // flex-direction: column;
+    // height: 100%;
+
+    .info-profil {
+    //     display: flex;
+    //     flex-direction: column;
+
+        .nom-util {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .photo-profil {
+                width: 50px;
+                height: 50px;
+                background-color: black;
+                border-radius: 50%;
+            }
+
+            h2 {
+                padding-left: 5px;
+            }
+
+        }
+        .status {
+            display: flex;
+            justify-content: space-around;
+        
+            .abonnements {
+                text-align: center;
+            }
+
+            .abonnees {
+                text-align: center;
+            }
+
+            .aime {
+                text-align: center;
+            }
+
+        }
+    }
+}
