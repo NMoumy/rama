@@ -2,8 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    img {
-        
+    flex-direction: row;
+    gap: 10px;
+    .publication {
+        flex-grow: 1;
+        img {
+            width: 100%
+        }
     }
 }
