@@ -3,15 +3,15 @@ import PageAccueil from './PageAccueil';
 import PageConnexion from './PageConnexion';
 import PageProfil from './PageProfil';
 // import { useEffect, useState, createContext } from 'react';
-// export const UtilisateurContext = createContext(null);
+// export const PageActuelleContext = createContext(null);
 
 export default function Appli() {
 
-  // État de connexion d'un utilisateur
-  // const [utilisateur, setUtilisateur] = useState(null);
+  // État de la page
+  // const [page, setPage] = useState(null);
 
   // useEffect(
-  //     () => observerEtatConnexion(setUtilisateur),
+  //     () => observerEtatConnexion(setPage),
   //     []
   // );
 
