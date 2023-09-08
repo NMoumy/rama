@@ -1,6 +1,12 @@
 import './PageConnexion.scss';
+import React from 'react';
 
 export default function PageConnexion() {
+
+  const accederApp = () => {
+    
+  };
+
   return (
     <div className="PageConnexion">
 
@@ -9,7 +15,7 @@ export default function PageConnexion() {
       <div className='option-connexion'>
 
         <h2>Connexion</h2>
-        <form action="">
+        <form onSubmit="">
           <div className="champ-utilisateur">
             <label htmlFor="n1omUtilisateur">Nom d'utilisateur</label>
             <input
@@ -25,7 +31,7 @@ export default function PageConnexion() {
             />
           </div>
           <div className="champ-envoie">
-            <button type="submit">Se connecter</button>
+            <button type="submit" onClick={accederApp}>Se connecter</button>
           </div>
         </form>
 

@@ -1,10 +1,15 @@
 .LesPublicationsUtil {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0 auto;
     flex-direction: row;
-
     gap: 10px;
+
+    @media screen and (min-width: 600px) {
+        width: 70%;
+    }
 
     .publication {
         flex-grow: 1;
@@ -14,4 +19,5 @@
         }
 
     }
+    
 }
