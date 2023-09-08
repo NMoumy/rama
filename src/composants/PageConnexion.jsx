@@ -1,10 +1,12 @@
 import './PageConnexion.scss';
-import React from 'react';
+// import React, { useContext } from 'react';
+// import { PageActuelleContext } from './Appli';
 
 export default function PageConnexion() {
-
+  // let pageActuelle = useContext(PageActuelleContext); 
+  // const accueil = "accueil";
   const accederApp = () => {
-    
+
   };
 
   return (
